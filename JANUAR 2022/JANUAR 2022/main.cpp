@@ -1,45 +1,48 @@
 #pragma once
-#include "Figura.h"
-#include "Kolekcija.h"
-#include "Kvadrat.h"
-#include "Pravougaonik.h"
-#include <fstream>
+#include <iostream>
+#include "Skup.h"
+#include "Takmicar.h"
+
+using namespace std;
 
 int main()
 {
 	try
 	{
-		Kolekcija* niz = new Kolekcija(5);
+		Skup<int>* niz1 = new Skup<int>(6);
 
-		Kvadrat* obj1 = new Kvadrat(1, 1, 100);
-		Kvadrat* obj2 = new Kvadrat(1, 1, 20);
-		Pravougaonik* obj3 = new Pravougaonik(1, 1, 10, 20);
+		int* obj1 = new int(5);
+		int* obj2 = new int(1);
+		int* obj3 = new int(9);
+		int* obj4 = new int(5);
+		int* obj5 = new int(7);
 
-		niz->dodaj(*obj1);
-		niz->dodaj(*obj2);
-		niz->dodaj(*obj3);
+		niz1->dodaj(*obj1);
+		niz1->dodaj(*obj2);
+		niz1->dodaj(*obj3);
+		niz1->dodaj(*obj4);
+		niz1->dodaj(*obj5);
 
-		ofstream f("figure_izlaz.txt");
-		niz->prikaziL(f);//IDE U FAJL
-		cout << "..................................." << endl;
+		///////////
+		Skup<int>* niz2 = new Skup<int>(5);
 
-		niz->povrsinSvihFigura();//IDE NA STANDARD
-		cout << "..................................." << endl;
+		int* obj6 = new int(15);
+		int* obj7 = new int(1);
+		int* obj8 = new int(6);
+		int* obj9 = new int(3);
+		int* obj10 = new int(5);
 
-		niz->obimSvihFigura();//IDE NA STANDARD
-		cout << "..................................." << endl;
+		niz2->dodaj(*obj6);
+		niz2->dodaj(*obj7);
+		niz2->dodaj(*obj8);
+		niz2->dodaj(*obj9);
+		niz2->dodaj(*obj10);
 
-		niz->sortiraj();//NIJE DOBRO ODRADJENA
+		niz2->obrisi(3);
 
-		niz->prikaziL(f);//IDE U FAJL
-
-
-		f.close();
-
-
-		delete niz;
+		cout << (*niz1->unija(*niz2));//5 1 9 7 15 6 3
 	}
-	catch (char* textic)
+	catch (const char* textic)
 	{
 		cout << textic;
 	}

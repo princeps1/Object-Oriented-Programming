@@ -15,16 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Student.h">
+    <ClInclude Include="Lista.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PisaniIspit.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Kolokvijumi.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Evidencija.h">
+    <ClInclude Include="Takmicar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

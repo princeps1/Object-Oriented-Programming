@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8fcf436a-d049-497a-b6f8-72b5bc147fc0}</ProjectGuid>
+    <ProjectGuid>{3753b082-9596-4a7f-adbe-0b1576979be4}</ProjectGuid>
     <RootNamespace>JANUAR2022</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,10 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Figura.h" />
-    <ClInclude Include="Kolekcija.h" />
-    <ClInclude Include="Kvadrat.h" />
-    <ClInclude Include="Pravougaonik.h" />
+    <ClInclude Include="Skup.h" />
+    <ClInclude Include="Takmicar.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

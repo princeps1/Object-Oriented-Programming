@@ -1,2 +1,137 @@
 ﻿  main.cpp
-  JANUAR 2021.vcxproj -> D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA PRVI ZADATAK\JANUAR 2021\x64\Debug\JANUAR 2021.exe
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\Sport.h(40,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,3): error C2679: binary '<<': no operator found which takes a right-hand operand of type 'T' (or there is no acceptable conversion)
+          with
+          [
+              T=Sport
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(475,39): message : could be 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(443,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(425,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(407,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(389,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(371,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(353,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(335,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(317,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(298,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(272,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(253,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(219,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(201,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(195,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(189,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(184,39): message : or       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\Sport.h(74,18): message : or       'std::ostream &operator <<(std::ostream &,Sport &)' [found using argument-dependent lookup]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(1075,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : 'initializing': cannot convert from 'T' to 'const std::error_code &'
+          with
+          [
+              T=Sport
+          ]
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : Reason: cannot convert from 'T' to 'const std::error_code'
+          with
+          [
+              T=Sport
+          ]
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(998,9): message : or       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,41): message : '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)': could not deduce template argument for '__formal'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(940,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : 'initializing': cannot convert from 'T' to 'unsigned char'
+          with
+          [
+              T=Sport
+          ]
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(934,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : 'initializing': cannot convert from 'T' to 'const unsigned char *'
+          with
+          [
+              T=Sport
+          ]
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(929,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : 'initializing': cannot convert from 'T' to 'signed char'
+          with
+          [
+              T=Sport
+          ]
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(923,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : 'initializing': cannot convert from 'T' to 'const signed char *'
+          with
+          [
+              T=Sport
+          ]
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(887,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,3): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': template parameter '_Elem' is ambiguous
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,3): message : could be 'T'
+          with
+          [
+              T=Sport
+          ]
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,3): message : or       'char'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,3): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)': could not deduce template argument for '_Elem' from 'T'
+          with
+          [
+              T=Sport
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(844,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,3): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)': could not deduce template argument for 'const _Elem *' from 'T'
+          with
+          [
+              T=Sport
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(806,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : 'initializing': cannot convert from 'T' to 'char'
+          with
+          [
+              T=Sport
+          ]
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(761,31): message : or       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : 'initializing': cannot convert from 'T' to 'const char *'
+          with
+          [
+              T=Sport
+          ]
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(725,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : 'initializing': cannot convert from 'T' to 'char'
+          with
+          [
+              T=Sport
+          ]
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\ostream(681,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : 'initializing': cannot convert from 'T' to 'const char *'
+          with
+          [
+              T=Sport
+          ]
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,39): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(3599,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,3): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)': could not deduce template argument for 'const std::unique_ptr<_Ty2,_Dx2> &' from 'T'
+          with
+          [
+              T=Sport
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\memory(1915,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,3): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)': could not deduce template argument for 'const std::shared_ptr<_Ty> &' from 'T'
+          with
+          [
+              T=Sport
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(5360,32): message : or       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,3): message : 'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)': could not deduce template argument for 'const std::basic_string<_Elem,_Traits,_Alloc> &' from 'T'
+          with
+          [
+              T=Sport
+          ]
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA DRUGI ZADACI\SAMOSTALNO\JANUAR 2021\JANUAR 2021\main.cpp(33,3): message : while trying to match the argument list '(std::ostream, T)'
+          with
+          [
+              T=Sport
+          ]

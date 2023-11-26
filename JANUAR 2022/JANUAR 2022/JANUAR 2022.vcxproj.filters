@@ -15,16 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Figura.h">
+    <ClInclude Include="Skup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Kvadrat.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Pravougaonik.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Kolekcija.h">
+    <ClInclude Include="Takmicar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

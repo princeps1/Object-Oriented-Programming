@@ -15,13 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ObicnoDomacinstvo.h">
+    <ClInclude Include="Sport.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SolarnoDomacinstvo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Sistem.h">
+    <ClInclude Include="Skola.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

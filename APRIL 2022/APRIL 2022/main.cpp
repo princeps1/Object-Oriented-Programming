@@ -1,8 +1,7 @@
 #pragma once
-#include "Student.h"
-#include "PisaniIspit.h"
-#include "Kolokvijumi.h"
-#include "Evidencija.h"
+#include "Lista.h"
+#include "Takmicar.h"
+#include <iostream>
 
 using namespace std;
 
@@ -10,35 +9,30 @@ int main()
 {
 	try
 	{
-		Evidencija* niz = new Evidencija(5);
-		PisaniIspit* obj1 = new PisaniIspit(18700, 15, 35, 35);
-		PisaniIspit* obj2 = new PisaniIspit(18701, 20, 25, 19);//PAO PISMENI
-		PisaniIspit* obj3 = new PisaniIspit(18705, 10, 15, 35);//PAO USMENI
+		Lista<int>* niz1 = new Lista<int>(5);
 
-		Kolokvijumi* obj4 = new Kolokvijumi(18702, 11, 25, 15, 15);
+		int* obj1 = new int(1);
+		int* obj2 = new int(2);
+		int* obj3 = new int(3);
 
-		niz->dodaj(*obj1);
-		niz->dodaj(*obj2);
-		niz->dodaj(*obj3);
-		niz->dodaj(*obj4);
+		niz1->dodaj(*obj1);
+		niz1->dodaj(*obj2);
+		niz1->dodaj(*obj3);
 
-		niz->prikaziL();
-		cout<<niz->brStudenataPolozili()<<endl;
 
-		cout << "..........................................." << endl;
+		Lista<int>* niz2 = new Lista<int>(5);
 
-		niz->obrisi(18700);
-		niz->izmeniBodove(18701, 5);//IMCE SAD 24 I ONDA JE POROSO I ON
+		int* obj4 = new int(9);
+		int* obj5 = new int(8);
+		int* obj6 = new int(4);
+		int* obj7 = new int(3);
 
-		niz->prikaziL();
-		cout<<niz->brStudenataPolozili()<<endl;
-		
-		cout << "..........................................." << endl;
+		niz2->dodaj(*obj4);
+		niz2->dodaj(*obj5);
+		niz2->dodaj(*obj6);
+		niz2->dodaj(*obj7);
 
-		niz->dodaj(*obj1);
-		niz->prikaziL();
-		cout<<niz->prosek();
-
+		cout << (*niz1->spoji(*niz2));
 	}
 	catch (const char* textic)
 	{
