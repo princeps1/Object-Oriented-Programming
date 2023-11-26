@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA PRVI ZADATAK\SA CASA\JANUAR 2023\JANUAR 2023\Dan.h(27,39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA PRVI ZADATAK\SA CASA\JANUAR 2023\JANUAR 2023\DanNoc.h(24,39): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  JANUAR 2023.vcxproj -> D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA PRVI ZADATAK\SA CASA\JANUAR 2023\x64\Debug\JANUAR 2023.exe
