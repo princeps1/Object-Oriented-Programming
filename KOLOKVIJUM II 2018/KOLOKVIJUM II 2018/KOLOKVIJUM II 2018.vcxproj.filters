@@ -15,13 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Objekat.h">
+    <ClInclude Include="Skup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ObjekatBasta.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Sistem.h">
+    <ClInclude Include="Procesor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

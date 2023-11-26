@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f20143c5-ed27-4664-b771-1863aaee8562}</ProjectGuid>
+    <ProjectGuid>{e3255c53-5f6a-4e42-888f-71f1deb170dc}</ProjectGuid>
     <RootNamespace>KOLOKVIJUMII2018</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -127,9 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Objekat.h" />
-    <ClInclude Include="ObjekatBasta.h" />
-    <ClInclude Include="Sistem.h" />
+    <ClInclude Include="Procesor.h" />
+    <ClInclude Include="Skup.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

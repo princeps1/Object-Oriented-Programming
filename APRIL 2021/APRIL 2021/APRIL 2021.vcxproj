@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{75429eb1-ede1-46a7-ab65-d0ac2740a6db}</ProjectGuid>
+    <ProjectGuid>{ccc7db18-28e6-4c52-9759-bdc18061c304}</ProjectGuid>
     <RootNamespace>APRIL2021</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -101,7 +101,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <SDLCheck>false</SDLCheck>
+      <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
@@ -127,10 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Kondenzator.h" />
-    <ClInclude Include="Otpornik.h" />
-    <ClInclude Include="Proizvod.h" />
-    <ClInclude Include="Traka.h" />
+    <ClInclude Include="KK.h" />
+    <ClInclude Include="Sale.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

@@ -15,16 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Proizvod.h">
+    <ClInclude Include="KK.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Otpornik.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Kondenzator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Traka.h">
+    <ClInclude Include="Sale.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
