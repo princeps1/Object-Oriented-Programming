@@ -1,50 +1,56 @@
 #pragma once
-#include "Automobil.h"
-#include "Kamion.h"
-#include "Vozilo.h"
-#include "VozniPark.h"
-#include <iostream>
+#include "Banana.h"
+#include "Kolekcija.h"
 
+#include <iostream>
 using namespace std;
 
 int main()
 {
-	VozniPark* niz1 = new VozniPark(5);
-	VozniPark* niz2 = new VozniPark(5);
+	try
+	{
+		Kolekcija<float>* niz1 = new Kolekcija<float>(5);
 
-	Automobil* obj1 = new Automobil();
-	Automobil* obj2 = new Automobil();
-	Automobil* obj3 = new Automobil();
+		float* obj1 = new float(100.05);
+		float* obj2 = new float(140.8);
+		float* obj3 = new float(90);
+		float* obj4 = new float(110);
+		float* obj5 = new float(76.66);
 
-	Kamion* obj4 = new Kamion();
-	Kamion* obj5 = new Kamion();
-	Kamion* obj6 = new Kamion();
+		niz1->dodaj(*obj1);
+		niz1->dodaj(*obj2);
+		niz1->dodaj(*obj3);
+		niz1->dodaj(*obj4);
+		niz1->dodaj(*obj5);
 
-	niz1->dodaj(*obj1);
-	niz1->dodaj(*obj2);
-	niz1->dodaj(*obj3);
+		float procenat;
+		cout << "Unesi procenat: "; cin >> procenat;
+		niz1->obrisi(procenat);
 
-	niz2->dodaj(*obj4);
-	niz2->dodaj(*obj5);
-	niz2->dodaj(*obj6);
+		cout << (*niz1);
 
-	ifstream ulaz1("automobil.txt");
-	niz1->citajNiz(ulaz1);
-	ulaz1.close();
+		//////*BANANE*/////////
+		Kolekcija<Banana>* niz2 = new Kolekcija<Banana>(5);
 
+		Banana* obj6 = new Banana(100.05, (char*)"zrela");
+		Banana* obj7 = new Banana(140.8, (char*)"zrela");
+		Banana* obj8 = new Banana(90, (char*)"zrela");
+		Banana* obj9 = new Banana(110, (char*)"trula");//TRULA
+		Banana* obj10 = new Banana(76.66, (char*)"zrela");
 
-	ifstream ulaz2("kamion.txt");
-	niz2->citajNiz(ulaz2);
-	ulaz2.close();
+		niz2->dodaj(*obj6);
+		niz2->dodaj(*obj7);
+		niz2->dodaj(*obj8);
+		niz2->dodaj(*obj9);
+		niz2->dodaj(*obj10);
 
-	niz1->sortiraj();
-	//niz1->upisiNiz(cout);
-	ofstream izlaz1("automobil_izlaz.txt");
-	niz1->upisiNiz(izlaz1);
-	izlaz1.close();
+		cout << endl;
+		niz2->obrisi(procenat);
 
-	niz2->sortiraj();
-	ofstream izlaz2("kamion_izlaz.txt");
-	niz2->upisiNiz(izlaz2);
-	izlaz2.close();
+		cout << (*niz2);//OVDE CE DA IZADJU RAZLICITI OBJEKTI U ODNOSU NA FLOAT NIZ JER JE JEDAN ELEMENT TRUO I ONDA MU VREDNOST PADA NA -1!
+	}
+	catch (const char* textic)
+	{
+		cout << textic;
+	}
 }

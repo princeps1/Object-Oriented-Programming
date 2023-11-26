@@ -1,50 +1,35 @@
 #pragma once
-#include "Posetilac.h"
-#include "Sistem.h"
-#include "StvarniPosetilac.h"
-#include "VirtualniPosetilac.h"
-
-#include <fstream>
+#include "Spisak.h"
+#include "Film.h"
 
 int main()
 {
 	try
 	{
-		Sistem* niz = new Sistem((char*)"Drakulin Zamak", 7);
+		Spisak<Film>* niz = new Spisak<Film>(5, 5);
 
-		VirtualniPosetilac* obj1 = new VirtualniPosetilac(3, (char*)"Mateja", (char*)"Jovic", 1000, (char*)"princeps1", 2, 9);
-		VirtualniPosetilac* obj2 = new VirtualniPosetilac(2, (char*)"Jana", (char*)"Jovic", 1000, (char*)"princeps2", 3, 15);
+		Film* obj1 = new Film(12, (char*)"Undisputed", 2012, 7);
+		Film* obj2 = new Film(1, (char*)"Never back down", 2006, 9);//TREBA DA ODSTAMPA
+		Film* obj3 = new Film(5, (char*)"4. covek", 2000, 10);//TREBA DA ODSTAMPA
+		Film* obj4 = new Film(9, (char*)"Purple heart", 2020, 7);//TREBA DA ODSTAMPA
 
-		StvarniPosetilac* obj3 = new StvarniPosetilac(1, (char*)"Dragana", (char*)"Jovic", 2000, (char*)"princeps3", 20, 500);
-		StvarniPosetilac* obj4 = new StvarniPosetilac(5, (char*)"Backo", (char*)"Jovic", 2000, (char*)"princeps4", 50, 500);
-		StvarniPosetilac* obj5 = new StvarniPosetilac(4, (char*)"Roki", (char*)"Jovic", 2000, (char*)"princeps5", 70, 500);
-		StvarniPosetilac* obj0 = new StvarniPosetilac(4, (char*)"Roki", (char*)"Jovic", 2000, (char*)"princeps5", 70, 500);
+		niz->dodaj(*obj1);
+		niz->dodaj(*obj2);
+		niz->dodaj(*obj3);
+		niz->dodaj(*obj4);
 
-		niz->dodaj(obj1);
-		niz->dodaj(obj2);
-		niz->dodaj(obj3);
-		niz->dodaj(obj4);
-		niz->dodaj(obj5);
+		niz->obrisi(0);
 
-		niz->obrisi(3);
-		//niz->dodaj(obj0);//OVDE TREBA DA BACI EXCEPTION
+		niz->promenaOcene(2, 6);
 
-		ofstream f("posete.txt");
-		niz->prikaziNiz(f);
-		f.close();
+		cout<<niz->brFilmovaSaOcenom(10)<<endl;
 
-		cout << niz->prihodZamka()<<endl;
+		cout << (*niz)<<endl;
 
-		/*cout << obj1->koefZainteresovanosti()<<endl;
-		cout << obj2->koefZainteresovanosti()<<endl;
-		cout << obj3->koefZainteresovanosti() << endl;
-		cout << obj4->koefZainteresovanosti() << endl;
-		cout << obj5->koefZainteresovanosti() << endl;*/
+		Film* minmax = niz->minMax();
+		cout << "NAJMANJI I NAJVECI" << endl;
+		cout << minmax[0] <<minmax[1];
 
-		//NAJJACI NACIN ZA PRIKAZIVANJE SVIH ELEMENATA IKAD!
-		Posetilac* pom = new StvarniPosetilac();
-		pom = (&niz->najjaciPosetilac());
-		pom->prikazi(cout);
 
 	}
 	catch (const char* textic)

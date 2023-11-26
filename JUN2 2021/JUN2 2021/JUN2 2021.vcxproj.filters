@@ -15,16 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Posetilac.h">
+    <ClInclude Include="Film.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="VirtualniPosetilac.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="StvarniPosetilac.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Sistem.h">
+    <ClInclude Include="Spisak.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
