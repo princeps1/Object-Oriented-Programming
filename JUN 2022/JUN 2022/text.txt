@@ -1,0 +1,6 @@
+3. Dragana Jovic 60 Pile 5 5 95
+2. Jana Jovic 60 5 50 40
+1. Mateja Jovic 60 5 30 30
+
+Srednja vrednost je: 141.667
+Najjaci takmicar je: 3. Dragana Jovic

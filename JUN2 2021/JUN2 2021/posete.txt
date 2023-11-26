@@ -1,0 +1,5 @@
+Drakulin Zamak
+1 Dragana Jovic princeps3 20 500
+2 Jana Jovic princeps2 3 15
+4 Roki Jovic princeps5 70 500
+5 Backo Jovic princeps4 90 500

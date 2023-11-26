@@ -1,0 +1,5 @@
+﻿  main.cpp
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA PRVI ZADATAK\SAMOSTALNO\JUN 2022-FALI F-JA ZA SORTIRANJE\JUN 2022\Ucesnik.h(23,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA PRVI ZADATAK\SAMOSTALNO\JUN 2022-FALI F-JA ZA SORTIRANJE\JUN 2022\Ucesnik.h(26,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA PRVI ZADATAK\SAMOSTALNO\JUN 2022-FALI F-JA ZA SORTIRANJE\JUN 2022\Pevac.h(18,4): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  JUN 2022.vcxproj -> D:\FAKULTET\TRECI SEMESTAR\OOP\PRIVATNI\ZADACI\VEZBA PRVI ZADATAK\SAMOSTALNO\JUN 2022-FALI F-JA ZA SORTIRANJE\x64\Debug\JUN 2022.exe
